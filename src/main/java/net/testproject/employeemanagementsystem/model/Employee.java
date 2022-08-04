@@ -13,7 +13,6 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Entity
 @Table(name = "employees")
-
 public class Employee {
 
     @Id
@@ -28,4 +27,5 @@ public class Employee {
 
     @Column(name = "email_id")
     private String emailId;
+
 }
